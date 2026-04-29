@@ -1,0 +1,63 @@
+# Copilot Instructions for Parroty-POC
+
+## Project Overview
+Parroty-POC is a Python Proof of Concept project. Code and suggestions should follow PEP 8 style guidelines.
+
+## Code Style and Standards
+- Follow PEP 8 for code formatting and naming conventions
+- Use type hints for function parameters and return values
+- Write clear docstrings for all functions and classes (Google or NumPy style)
+- Keep functions small and focused (single responsibility principle)
+- Use meaningful variable names
+
+## Project Structure
+- `/src` - Main source code directory
+- `/tests` - Unit tests (if created)
+- `requirements.txt` - Dependencies
+- `README.md` - Project documentation
+
+## Python Version
+- Target: Python 3.8+
+- Ensure compatibility with the specified Python version
+
+## Dependencies Management
+- Add new dependencies to `requirements.txt` with versions pinned
+- Document why each dependency is needed in commit messages
+- Prefer standard library solutions when available
+
+## Documentation
+- Update README.md when adding new features
+- Include docstrings in all public functions and classes
+- Comment complex logic, not obvious code
+
+## Testing
+- Write unit tests for new functionality
+- Follow AAA pattern (Arrange, Act, Assert)
+- Use descriptive test names that explain what is being tested
+
+## Commits
+- Use clear, descriptive commit messages
+- Reference issue numbers when applicable
+- Keep commits focused on a single concern
+
+## Error Handling
+- Use specific exception types, not bare `except` clauses
+- Provide meaningful error messages
+- Log errors appropriately
+
+## Performance Considerations
+- Avoid O(n²) algorithms where O(n log n) is available
+- Cache expensive operations when appropriate
+- Profile code before optimizing
+
+## Security
+- Never hardcode secrets or credentials
+- Use environment variables for sensitive configuration
+- Validate and sanitize external inputs
+
+## Questions to Ask
+When Copilot is unsure:
+1. Ask about the intended behavior
+2. Request examples or test cases
+3. Clarify the requirements before implementing
+

@@ -1,2 +1,0 @@
-"""Parroty-POC main package."""
-

@@ -61,3 +61,29 @@ When Copilot is unsure:
 2. Request examples or test cases
 3. Clarify the requirements before implementing
 
+## Copilot ignore patterns
+The following ignore patterns are also kept in the project's `.`copilotignore` file. They are included here for convenience so Copilot suggestions avoid noise from these files and directories:
+
+```
+# Files and directories to ignore for Copilot
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.coverage
+.pytest_cache/
+.tox/
+*.log
+.DS_Store
+node_modules/
+.git/
+.idea/
+.vscode/
+```
